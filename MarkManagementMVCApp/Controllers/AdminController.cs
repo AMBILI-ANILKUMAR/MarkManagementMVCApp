@@ -66,7 +66,7 @@ namespace MarkManagementMVCApp.Controllers
                 }
                 else
                 {
-                    ViewBag.info = "Please Check the credentials";
+                    ViewBag.info = "Please Check the credential";
                 }
 
                 return View();
