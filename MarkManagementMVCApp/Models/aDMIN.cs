@@ -127,9 +127,6 @@ namespace MarkManagementMVCApp.Models
             SqlDataAdapter data = new SqlDataAdapter("Select * from FacultyInfo", sqlcon);
             DataSet ds = new DataSet();
             data.Fill(ds, "fact");
-
-
-            
             for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
             {
                 FacultyPage fp = new FacultyPage();
